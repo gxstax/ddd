@@ -1,0 +1,8 @@
+#spring:
+#  rabbitmq:
+#    username: guest
+#    password: guest
+#    host: 10.6.19.12:30007
+spring:
+  rabbitmq:
+    addresses: "amqp://guest:guest@10.6.19.12"
